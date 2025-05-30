@@ -17,9 +17,17 @@ load_profile_full_year.csv: Full year minute-based average used compatible with 
 
 # Code Files Overview:
 Economic_analysis.ipynb: Code file used for economic metric calculations and sensitivity analyses.
+
 Load_profile_visualization.ipynb: Code file used for visualizing the load profile data.
+
 Meteorological_data.ipynb: Code file used for visualizing the meteorological data.
+
 RAMP_full_year_average.py: Code file created based on the repository of the open-source RAMP model for generating multi-energy loads profiles. Simulates a full year based on the average monthly energy consumption data for the cold storage facility.
+
 RAMP_harvest_day.py: Code file created based on the repository of the open-source RAMP model for generating multi-energy loads profiles. Simulates a full year based on peak load (only harvest days) for the cold storage facility.
+
+
+# RAMP Repository:
+Link to the repository of the open-source RAMP model for generating multi-energy loads profiles: https://github.com/RAMP-project/RAMP
 
 
