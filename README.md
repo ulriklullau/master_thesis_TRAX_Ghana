@@ -27,6 +27,7 @@ RAMP_full_year_average.py: Code file created based on the repository of the open
 
 RAMP_harvest_day.py: Code file created based on the repository of the open-source RAMP model for generating multi-energy loads profiles. Simulates a full year based on peak load (only harvest days) for the cold storage facility.
 
+Refrigeration_loads.ipynb: Code file used for visualizing refrigeration loads.
 
 Operational_time.ipynb: Plot of the operational time of the compressor and temperature profile in the cold storage from 1 to 5 degrees Celcius. 
 
