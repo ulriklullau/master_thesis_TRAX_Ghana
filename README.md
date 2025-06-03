@@ -14,6 +14,7 @@ Non_harvest_day.csv: Average monthly energy consumption data based on only non-h
 
 load_profile_full_year.csv: Full year minute-based average used compatible with PVsyst simulations.
 
+transmission_loads.csv: Writes the transmission load from Transmission_load.ipynb.
 
 # Code Files Overview:
 Economic_analysis.ipynb: Code file used for economic metric calculations and sensitivity analyses.
@@ -25,6 +26,16 @@ Meteorological_data.ipynb: Code file used for visualizing the meteorological dat
 RAMP_full_year_average.py: Code file created based on the repository of the open-source RAMP model for generating multi-energy loads profiles. Simulates a full year based on the average monthly energy consumption data for the cold storage facility.
 
 RAMP_harvest_day.py: Code file created based on the repository of the open-source RAMP model for generating multi-energy loads profiles. Simulates a full year based on peak load (only harvest days) for the cold storage facility.
+
+Refrigeration_loads.ipynb: Code file used for visualizing refrigeration loads.
+
+Operational_time.ipynb: Plot of the operational time of the compressor and temperature profile in the cold storage from 1 to 5 degrees Celcius. 
+
+R410a_LogPH.ipynb: Plot of the air conditioning refrigeration cycle, with corresponding enthalpies and pressures. 
+
+Thermophysical_properties: Calculates the thermophysical properties and estimates the cooling time of the different vegetables. 
+
+Transmission_load.ipynb: Estimates the transmission load in the cold storage and writes it to the transmission_loads.csv text file. 
 
 
 # RAMP Repository:
