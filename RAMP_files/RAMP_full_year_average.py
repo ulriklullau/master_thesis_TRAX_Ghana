@@ -23,7 +23,7 @@ User_list.append(CS)
 # Add compressor appliance
 Compressor = CS.add_appliance(
  name = "Compressor", # optional feature for the appliance class
- number = 2, # how many radio each household type 1 has
+ number = 2, # how many
  power = 1950, # RAMP does not take care of units of measure (e.g., Watts), you must be consistent
  func_time = 1440, # Total functioning time of appliance in minutes
  num_windows = 1, # how many time-windows the appliance is used in
